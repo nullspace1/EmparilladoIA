@@ -116,7 +116,7 @@ python test/test_emparillado.py
 
 ## TODOs
 
-Falta armar los tests concretos del modulo de emparillado - actualmente el script solo corre un test.
+Optimizar el proceso de creacion de la matriz de diferencia. El metodo naive actual creo que es $O(N^3)$, por lo que es _practicamente_ inutilizable para matrices grandes de $> 100$ elementos.
 
 ## Contribuciones
 
