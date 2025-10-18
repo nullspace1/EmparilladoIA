@@ -113,6 +113,7 @@ python test/test_emparillado.py
 - **numpy**: Computación numérica
 - **pandas**: Manipulación y análisis de datos
 - **tqdm**: Barras de progreso para operaciones de larga duración
+- **Matplotlib**: Plotting del arbol jerarquico de relaciones entre elementos / caracteristicas
 
 ## TODOs
 
