@@ -68,7 +68,7 @@ class Emparillador():
         matriz_aux = np.zeros((n, n))
         matriz = np.zeros((n, n))
         
-        inverted_datos = self.datos.max().max() - self.datos
+        inverted_datos = self.datos.max().max() - self.datos + 1
          
         for i in range(n):
             for j in range(i+1, n):
@@ -81,6 +81,7 @@ class Emparillador():
                 matriz[j][i] = matriz[i][j]
                         
         return matriz
+    
     def _comparar_nodos(self, nodo1, nodo2, matriz: np.ndarray):
     
         
