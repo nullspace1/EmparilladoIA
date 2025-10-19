@@ -68,7 +68,7 @@ class Emparillador():
         matriz_aux = np.zeros((n, n))
         matriz = np.zeros((n, n))
         
-        inverted_datos = self.datos.max().max() - self.datos + 1
+        inverted_datos = self.datos.max().max() - self.datos + self.datos.min().min()
          
         for i in range(n):
             for j in range(i+1, n):
